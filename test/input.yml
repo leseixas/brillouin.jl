@@ -1,0 +1,11 @@
+---
+  system_name:         Diamond
+  geometry:
+    lattice_constant:  3.57   # length in angstrom
+    bravais_lattice:   [ [  0.0000000000000000,  0.5000000000000000,  0.5000000000000000 ],
+                         [  0.5000000000000000,  0.0000000000000000,  0.5000000000000000 ],
+                         [  0.5000000000000000,  0.5000000000000000,  0.0000000000000000 ] ]
+  kpoints:
+    sampling:          MonkhorstPack
+    gridl:             [ 6, 6, 6 ]
+...
