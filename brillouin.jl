@@ -13,7 +13,9 @@ using YAML
 #using JulieTest
 #using Gadfly
 
-include("lib/monkhorst-pack.jl")
+include("src/monkhorst-pack.jl")
+include("src/reciprocal.jl")
+include("src/firstBZ.jl")
 
 lattice_constant = 2.47
 
